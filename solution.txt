@@ -4,4 +4,5 @@ Both of them are used to apply the changes that was removed by using stash comma
 but the main difference between is git stash apply the most recently removed changes to working directly
 but it does not remove them from the stash.
 
-git stash pop also applies the most recently changes to working directory, but it also removes the changes fthe stash. means that we can only apply the same set of changes once using git stash pop
+git stash pop also applies the most recently changes to working directory, but it also removes the changes the stash.
+means that we can only apply the same set of changes once using git stash pop
