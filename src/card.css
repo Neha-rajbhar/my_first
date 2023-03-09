@@ -1,0 +1,39 @@
+.card{
+    height: 250px;
+    width :250px;
+    border-radius: 18px;
+    text-align: left;
+    margin-left: 5px;
+    padding-left: 38px;
+    background-color: #8e44ad;
+    transform: translate(600px,20%);
+    color: white;
+    font-weight: bold;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+    content: normal;
+    padding-top: 18px;
+    border-spacing: 1.0em;
+    font-family: 'Times New Roman', Times, serif;
+    
+    
+}
+h5{
+    font-size: 18px;
+    font-weight: 100;
+}
+h3{
+    font-size: 21px;
+    font-weight: bold;
+}
+p{
+    font-size: 12px;
+    justify-self: baseline;
+    
+
+}
+img{
+    border-radius: 45px;
+    border: 3px solid white;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+    
+}
