@@ -8,6 +8,7 @@ export default function Third(){
  }
     return(
         <>
+        ===============================================
         <h1>My name is {text}</h1>
 <button onClick={Change}>Change Name</button>
 </>

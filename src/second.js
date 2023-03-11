@@ -16,7 +16,8 @@ export default function Second(){
 
 return(
     <>
-    <h3 style={{color:"red",fontSize:"25px"}}>{count}</h3>
+    ======================================================
+    <h3 style={{color:"red",fontSize:"30px",marginLeft:"130px"}}>{count}</h3>
 <button onClick={Add}>Increase count</button>
 
 <button onClick={Sub}>Decrease count</button>

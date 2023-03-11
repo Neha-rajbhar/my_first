@@ -1,5 +1,5 @@
 .App {
-text-align: center;
+
 }
 
 
@@ -11,3 +11,18 @@ text-align: center;
   color: black;
 }
 
+h1{
+  font-family: 'Times New Roman', Times, serif;
+  font-weight: bold;
+}
+
+button{
+  font-weight: bold;
+  margin: 8px;
+  font-size: 15px;
+
+}
+
+input{
+  box-sizing: border-box;
+}
