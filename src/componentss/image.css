@@ -1,0 +1,36 @@
+.main {
+
+    display: flex;
+    width: 1000px;
+    height: 500px;
+    transform: translate(200px, 20%);
+    border: 2px solid black;
+
+}
+
+.btn {
+
+    width: 500px;
+    justify-content: center;
+    padding-top: 200px;
+}
+
+.image {
+    border: 2px solid black;
+
+}
+
+#imgButton {
+    background-color: red;
+    color: white;
+    height: 45px;
+    width: 200px;
+    border: none;
+    outline: none;
+    border-radius: 6px;
+    margin-left: 150px;
+    cursor: pointer;
+    font-weight: bold;
+    font-size: 18px;
+
+}
