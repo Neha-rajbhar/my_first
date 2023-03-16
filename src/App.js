@@ -8,7 +8,7 @@ import Signup from './componentss/signup.js';
 function App() {
   return (
     <div className="App">
-    {/* <Image/> */}
+    <Image/>
      {/* <Textarea/> */}
      {/* <Signin/> */}
      {/* <Signup/> */}
