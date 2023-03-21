@@ -1,0 +1,187 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.mainNav{
+    
+    width: 100%;
+    height: 5rem;
+    display: grid;
+    grid-template-columns: 5rem 0.5fr 1.5fr 0.8fr 9rem;
+    box-shadow: rgba(50,50,93,0.25) 0px 50px 100px -20px,
+    rgba(0,0,0,0.3)0px 30px 60px -30px;
+}
+.logo{
+   
+    grid-column: 2/3;
+    display: grid;
+    justify-content: center;
+    text-align: center;
+    margin-top: 20px;
+}
+.mainLink{
+   
+    grid-column: 3/4;
+  
+}
+.mainLink ul{
+    text-decoration: none;
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+   
+    
+}
+.mainLink ul li{
+    word-spacing: 2rem;
+    margin-top: 25px;
+    margin-left: 10px;
+    margin-right: 50px;
+   
+}
+a{
+   
+    list-style: none;
+    text-decoration: none;
+    font-size: 20px;
+   
+}
+
+.loginLink{
+   
+    grid-column: 4/5;
+    
+}
+.text{
+    font-size: 55px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;margin-top: 200px;
+    color: blueviolet;
+}
+.loginLink ul{
+    text-decoration: none;
+    list-style: none;
+    display: grid;
+    grid-template-columns: 3fr repeat(3,1fr);
+    justify-content: center;
+    text-align: center;
+    
+    
+    
+}
+.main-link ul li:first-child{
+    
+}
+.loginLink ul li:first-child{
+    grid-column: 3/4;
+}
+.loginLink ul li{
+    word-spacing: 2rem;
+    margin: 25px;
+    
+    height: 25px;
+    width: 60px;
+    border-radius: 10px;
+    text-align: right;
+
+}
+
+.box{
+    border: 2px solid darkorange;
+    box-sizing: border-box;
+    height: 35px;
+    width: 80px;
+    border-radius: 20px;
+    padding: 10px;
+}
+
+@media (max-width: 1680px) {
+    .loginLink .hambergMenu{
+        display: none;
+        
+    }
+}
+@media (max-width: 1080px) {
+    .mainNav{
+        height: 8rem;
+        grid-template-columns: 2rem 3fr 3fr 1fr 2rem;
+    }
+
+    .logo,
+    .mainLink ul,
+    .loginLink ul{
+        height: 8rem;
+    }
+    .loginLink .hambergMenu{
+        display: none;
+        
+    }
+}
+
+@media (max-width: 998px){
+    .mainNav{
+        height: 7rem;
+        grid-template-columns: 2rem 2fr 3fr 2rem 2rem;
+    }
+.mobile{
+    grid-column: 2/4;
+    position: relative;
+    z-index: 99;
+}
+.mobile{
+    background-color: white;
+    height: 20rem;
+    display: grid;
+    grid-column: 2/5;
+    align-items: center;
+    padding-left: 3rem;
+    transition: all 2s linear;
+    transform-origin: top;
+    box-shadow: rgba(50,50,93,0.25) 0px 50px 100px -20px,
+    rgba(0,0,0,0.3)0px 30px 60px -30px;
+}
+.mobile ul{
+    text-decoration: none;
+    list-style: none;
+    height: 20rem;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    align-items: start;
+
+}
+.hambergMenu .time{
+    display: inline-block;
+    font-size: 2em;
+    margin: 40px;
+    position: absolute;
+    top: 0;
+    
+}
+.mobile ul li:first-child{
+transition-delay: 0.2s;
+}
+    .mainLink{
+        display: none;
+    }
+    .loginLink .icon{
+        height: 0;
+        display: none;
+    }
+    .loginLink{
+        height: 7rem;
+        display: flex;
+        justify-self: end;
+        align-items: center;
+    }
+    .loginLink .hambergMenu{
+        display: inline-block;
+        font-size: 2em;
+        margin: 40px;
+    }
+}
