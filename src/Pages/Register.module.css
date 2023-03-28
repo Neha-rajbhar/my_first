@@ -1,0 +1,52 @@
+.mainDiv{
+    
+    display: grid;
+    height: 100vh;
+    width: 100vw;
+    background-color: lightblue;
+    /* transform: translate(600px,20%); */
+}
+.form{
+   
+    background-color: white;
+    height: 50vh;
+    width: 25vw;
+    display: block;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    transform: translate(570px,-20%);
+    border-radius: 10px;
+    box-shadow: rgba(50,50,93,0.25) 0px 50px 100px -20px,
+    rgba(0,0,0,0.3)0px 30px 60px -30px;
+}
+.head{
+    color: white;
+    text-align: center;
+}
+input{
+    height: 5vh;
+    width: 20vw;
+    margin-top: 10px;
+    border: 1px solid blue;
+    border-radius: 6px;
+    padding: 4px;
+}
+
+.u{
+    margin-top: 60px;
+    border: 1px solid blue;
+    border-radius: 6px;
+}
+
+.btn{
+    height: 40px;
+    width: 20vw;
+    border: none;
+    border-radius: 15px;
+    background-color: red;
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+    margin-top: 30px;
+}
