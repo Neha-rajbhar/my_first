@@ -1,0 +1,22 @@
+table {
+    border-collapse: collapse;
+    width: 100%;
+  }
+  
+  td, th {
+    border: 1px solid #080808;
+    padding: 8px;
+    text-align: left;
+  }
+  
+  tr:nth-child(even) {
+    background-color: blueviolet;
+    color: white;
+  }
+  
+  td:last-child {
+    cursor: pointer;
+  }
+  body{
+    background-color: pink;
+  }

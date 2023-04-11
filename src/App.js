@@ -1,11 +1,13 @@
 import logo from './logo.svg';
 import './App.css';
-import Greeting from './thitdAssignment/Greeting';
+
+import Fetch from './First/Fetch';
 
 function App() {
   return (
     <div className="App">
-     <Greeting/>
+     
+     <Fetch/>
     </div>
   );
 }
