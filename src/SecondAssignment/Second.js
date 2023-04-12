@@ -22,6 +22,10 @@ function Second() {
         let newData = [...arr, { firstName: firstname, lastName: lastname, Email: email, Password: password }];
         setArr(newData);
         localStorage.setItem("userData", JSON.stringify(newData));
+        setFirstName('');
+        setLastName('');
+        setEmail('');
+        setPassword('');
         setRefer(firstname);
 
 
