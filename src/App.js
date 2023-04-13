@@ -1,13 +1,15 @@
 import logo from './logo.svg';
 import './App.css';
 
-import InputTable from './Input/InputTable';
+
+import ContextAssignment from './Context/ContextAssignment';
 
 function App() {
   return (
     <div className="App">
    
-     <InputTable/>
+   
+     <ContextAssignment/>
     </div>
   );
 }
