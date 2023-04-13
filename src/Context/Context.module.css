@@ -3,7 +3,10 @@
     padding: 0;
 }
 
-.main {}
+.main {
+    padding: 20px;
+    margin-top: 10px;
+}
 
 .userDetails {
     border: 2px solid blue;
@@ -67,5 +70,5 @@ h3 {
 }
 
 body {
-    background-color: lavenderblush;
+    background-color: yellow;
 }
