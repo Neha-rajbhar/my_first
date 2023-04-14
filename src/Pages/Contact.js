@@ -1,9 +1,9 @@
 import { useState } from "react";
 import { useNavigate, Link } from "react-router-dom";
-import Navbar from "../Components/Navbar";
 
 
-import style from './Register.module.css';
+
+import style from './Contact.module.css';
 
 export default function Register() {
     let [name, setName] = useState("");
@@ -25,8 +25,8 @@ export default function Register() {
     return (
         <>
             <div className={style.mainDiv}>
-                <Navbar />
-                <h1 className={style.head}> Register Here !!!</h1>
+               
+                <h1 className={style.head}> Contact us !!!</h1>
                 <div className={style.form}>
                     <input type="email" className={style.u} onChange={(e) => setEmail(e.target.value)} placeholder="Enter Email" />
                     <br />
@@ -39,9 +39,8 @@ export default function Register() {
                     <br />
                     <br />
                     <button className={style.btn}>Submit</button>
-                    <br />
-                    <br />
-                    <Link to="/login" style={sty}>Already Registerd</Link>
+                    
+                   
 
                 </div>
             </div>
