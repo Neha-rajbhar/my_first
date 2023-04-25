@@ -1,0 +1,26 @@
+.container{
+   
+    padding: 50px 10px;
+    margin-top: 100px;
+}
+h2{
+    color: blueviolet;
+    font-size: 40px;
+}
+button{
+    font-size: 20px;
+    margin-left: 20px;
+    padding: 10px ;
+    background-color: red;
+    color: white;
+    font-weight: bold;
+    border-radius: 50px;
+    width: 200px;
+    height: 40px;
+    border: none;
+    text-align: center;
+}
+h2{
+    font-size: 30px;
+    color: crimson;
+}

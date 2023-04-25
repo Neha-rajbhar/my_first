@@ -1,24 +1,26 @@
-import logo from './logo.svg';
-import './App.css';
+import { useState } from "react";
+
+import "./App.css";
+
+import Todos from "./todo/Todo";
+import { Provider } from "react-redux";
+import { state, store } from "./todo/TodoSlice";
+import { store1 } from "./Counter/CounterSlice";
+import Counter from "./Counter/Counter";
+
 
 function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+  return(
+  <div className="App">
+  <h2>Todo-List Assignment</h2>
+  <Provider store={state}>
+    <Todos />
+  </Provider>
+  <h3 style={{ marginTop: "150px" }}>Counter Assignment</h3>
+  <Provider store={store1}>
+    <Counter />
+  </Provider>
+</div>
   );
 }
 
