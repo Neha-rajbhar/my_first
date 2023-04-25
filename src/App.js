@@ -1,25 +1,36 @@
-import logo from './logo.svg';
-import './App.css';
-
+import "./App.css"
+import { useSelector, useDispatch } from "react-redux";
+import { increaseCounter } from "./redux/ButtonSlice";
 function App() {
+  
+  const arr = useSelector((state) => state.button.arr);
+
+  const dispatch = useDispatch();
+
+  function handleClick(index) {
+    dispatch(increaseCounter(index));
+  }
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <table>
+        <thead>
+          <th>Button</th>
+          <th>Action</th>
+        </thead>
+        <tbody>
+          {arr.map((item, index) => (
+            <tr>
+              <td>
+                <button onClick={() => handleClick(index)}>{item.name}</button>
+              </td>
+              <td>{item.count}</td>
+            </tr>
+          ))}
+        </tbody>
+      </table>
     </div>
   );
 }
+
 
 export default App;
